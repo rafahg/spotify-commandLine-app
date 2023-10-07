@@ -2,10 +2,17 @@
   "name": "spotify-commandline-app",
   "version": "1.0.0",
   "description": "CSV manager as command line app with Spotify data as example",
-  "main": "index.js",
+  "main": "bin/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rafa Hernandez",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "run": "./bin/app.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.22.17"
+  }
 }
