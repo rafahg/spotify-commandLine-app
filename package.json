@@ -1,0 +1,11 @@
+{
+  "name": "spotify-commandline-app",
+  "version": "1.0.0",
+  "description": "CSV manager as command line app with Spotify data as example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafa Hernandez",
+  "license": "MIT"
+}
